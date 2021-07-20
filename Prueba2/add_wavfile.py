@@ -10,7 +10,7 @@ db = myclient["b3"]
 coleccion1 = db["archivos"]
 
 # Primero se codifican los 3 audios a base 64, despues se crea un archivo temporal en formato wav
-# en el cual se escribe la decodificacion de string base64.
+# en el cual se escribe la decodificacion de string base64, de esta forma se ve mucho mas simplificado al hacer db.archivos.find().pretty()
 
 encode_musica = base64.b64encode(open("ringtone.wav", "rb").read())
 model_file1 = open("temp1.wav", "wb")
