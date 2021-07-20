@@ -1,0 +1,22 @@
+Modelo mongo:
+
+Colección "Archivos"{
+
+Usuario: {rut,nombre,apellido}
+id_archivo
+dato: {audio,audio,audio}
+Fecha Grabacion
+Ciudad
+Formato
+Duracion
+Exterior_interior
+Latitud
+Longitud
+Segmentos:[{
+id_segmento,
+formato,
+duracion,
+inicio,
+fin,
+Analizar:[{tipo_analizador,descripcion,nombre_fuente,porcentaje,categoria}
+				
