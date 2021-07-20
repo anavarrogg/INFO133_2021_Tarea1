@@ -6,6 +6,7 @@ myclient = pymongo.MongoClient("mongodb://localhost:27017/")
 db = myclient["b3"]
 
 coleccion1 = db["archivos"]
+coleccion2 = db["Fuente"]
 
 coleccion1.insert_many([
 			{
