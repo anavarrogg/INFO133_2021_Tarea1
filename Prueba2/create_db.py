@@ -49,7 +49,7 @@ coleccion1.insert_many([
 				"id_archivo": 2,
 				"dato": ObjectId("60f72dde97fe53498072e5bb"),# _id que hace referencia al audio
 				#usado por este usuario
-				"Fecha_Grabacion": "22-05-2021",
+				"Fecha_Grabacion": "21-05-2021",
 				"Ciudad": "Valdivia",
 				"Formato": "wav",
 				"Duracion": 3,
@@ -80,7 +80,7 @@ coleccion1.insert_many([
 				"id_archivo": 3,
 				"dato": ObjectId("60f72dde97fe53498072e5bc"),# _id que hace referencia al audio
 				#usado por este usuario
-				"Fecha_Grabacion": "22-05-2021",
+				"Fecha_Grabacion": "19-05-2021",
 				"Ciudad": "Valdivia",
 				"Formato": "wav",
 				"Duracion": 3,
@@ -111,7 +111,7 @@ coleccion1.insert_many([
 				"id_archivo": 4,
 				"dato": ObjectId("60f72dde97fe53498072e5bc"),# _id que hace referencia al audio
 				#usado por este usuario
-				"Fecha_Grabacion": "22-05-2021",
+				"Fecha_Grabacion": "18-05-2021",
 				"Ciudad": "Valdivia",
 				"Formato": "wav",
 				"Duracion": 3,
@@ -144,7 +144,7 @@ coleccion1.insert_many([
 				"id_archivo": 5,
 				"dato": ObjectId("60f72dde97fe53498072e5ba"),# _id que hace referencia al audio
 				#usado por este usuario
-				"Fecha_Grabacion": "22-05-2021",
+				"Fecha_Grabacion": "17-05-2021",
 				"Ciudad": "Valdivia",
 				"Formato": "wav",
 				"Duracion": 18,
