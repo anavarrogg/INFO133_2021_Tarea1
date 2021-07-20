@@ -19,4 +19,11 @@ duracion,
 inicio,
 fin,
 Analizar:[{tipo_analizador,descripcion,nombre_fuente,porcentaje,categoria}
+
+Coleccion “Fuente”
+
+{
+tipo
+archivos: [ID_archivo, ID_segmento, analizador]
+}
 				
