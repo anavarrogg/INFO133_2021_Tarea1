@@ -16,11 +16,8 @@ coleccion1.insert_many([
 						"apellido": "Fernandez" 
 						},
 				"id_archivo": 1,
-				"dato": {# lista de _id que hace 
-				#referencia a diferentes audios que este usuario usa
-						"audio1": ObjectId("60f72dde97fe53498072e5ba"),
-						"audio2": ObjectId("60f72dde97fe53498072e5bb")
-						},
+				"dato": ObjectId("60f72dde97fe53498072e5ba"),# _id que hace referencia al audio
+				#usado por este usuario	
 				"Fecha_Grabacion": "22-05-2021",
 				"Ciudad": "Valdivia",
 				"Formato": "wav",
@@ -50,12 +47,8 @@ coleccion1.insert_many([
 						"apellido": "Sanchez" 
 						},
 				"id_archivo": 2,
-				"dato": {# lista de _id que hace 
-				#referencia a diferentes audios que este usuario usa
-						"audio1": ObjectId("60f72dde97fe53498072e5bc"),
-						"audio2": ObjectId("60f72dde97fe53498072e5bb"),
-						"audio3": ObjectId("60f72dde97fe53498072e5ba")
-						},
+				"dato": ObjectId("60f72dde97fe53498072e5bb"),# _id que hace referencia al audio
+				#usado por este usuario
 				"Fecha_Grabacion": "22-05-2021",
 				"Ciudad": "Valdivia",
 				"Formato": "wav",
@@ -85,11 +78,8 @@ coleccion1.insert_many([
 						"apellido": "Valdivia" 
 						},
 				"id_archivo": 3,
-				"dato": {# lista de _id que hace 
-				#referencia a diferentes audios que este usuario usa
-						"audio1": ObjectId("60f72dde97fe53498072e5bc"),
-						"audio2": ObjectId("60f72dde97fe53498072e5bb")
-						},
+				"dato": ObjectId("60f72dde97fe53498072e5bc"),# _id que hace referencia al audio
+				#usado por este usuario
 				"Fecha_Grabacion": "22-05-2021",
 				"Ciudad": "Valdivia",
 				"Formato": "wav",
@@ -119,11 +109,8 @@ coleccion1.insert_many([
 						"apellido": "Isla" 
 						},
 				"id_archivo": 4,
-				"dato": {# lista de _id que hace 
-				#referencia a diferentes audios que este usuario usa
-						"audio1": ObjectId("60f72dde97fe53498072e5ba"),
-						"audio2": ObjectId("60f72dde97fe53498072e5bb")
-						},
+				"dato": ObjectId("60f72dde97fe53498072e5bc"),# _id que hace referencia al audio
+				#usado por este usuario
 				"Fecha_Grabacion": "22-05-2021",
 				"Ciudad": "Valdivia",
 				"Formato": "wav",
@@ -155,12 +142,8 @@ coleccion1.insert_many([
 						"apellido": "Vargas" 
 						},
 				"id_archivo": 5,
-				"dato": {# lista de _id que hace 
-				#referencia a diferentes audios que este usuario usa
-						"audio1": ObjectId("60f72dde97fe53498072e5bc"),
-						"audio2": ObjectId("60f72dde97fe53498072e5bb"),
-						"audio3": ObjectId("60f72dde97fe53498072e5ba")
-						},
+				"dato": ObjectId("60f72dde97fe53498072e5ba"),# _id que hace referencia al audio
+				#usado por este usuario
 				"Fecha_Grabacion": "22-05-2021",
 				"Ciudad": "Valdivia",
 				"Formato": "wav",
